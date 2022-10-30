@@ -5,7 +5,6 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
@@ -21,6 +20,7 @@ li {
   background-image: url("./img/bg-hero-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .container {
   display: flex;
@@ -187,6 +187,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-bottom: 50px;
+  overflow: hidden;
 }
 .container-3 {
   margin-left: 30px;
